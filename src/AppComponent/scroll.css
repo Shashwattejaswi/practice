@@ -1,0 +1,180 @@
+.container{
+    min-width: 97vh;
+    width: 98%;
+    background-color: rgb(29, 29, 29);
+    padding :2vh 1%;
+}
+
+body{
+    margin: 0px;
+    outline: 0px;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ height: 6vh;
+ background-color: rgb(98, 215, 215);
+ border-radius: 5px;
+ padding: 2vh 2vw;
+}
+.logo
+{
+    height: 100%;
+    min-width: 20vw;
+    border-radius: 5px;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-family:'Candara';
+
+}
+.nav
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    
+    
+}
+.nav li{
+    height: 100%;
+    width: 4vw;
+    border-radius: 6px;
+    padding: 1.5vh 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+    cursor: pointer;
+}
+.nav li:hover
+{
+    background-color: rgb(48, 48, 48);
+    color: aqua;
+    
+}
+
+.center{
+    width: 100% ;  
+    height: auto; 
+    padding:.4dvw .2dvw;
+    margin-top:2vh ;
+    background-color: rgb(48, 48, 48);
+    border-radius: 5px;
+    border: 1.5px solid none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.Card
+{
+    /* 260 */
+    height:19dvw;
+    /* 200 */
+    width: 11em;
+    border: 1px solid  rgb(98, 215, 215);
+    border-radius: 8px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:.2dvw;
+    display:inline-flex;
+}
+.Card img{
+    width: 98%;
+    height: 15dvw;
+    background-color: rgb(208, 255, 252);
+    border-radius: 5px;
+}
+.details
+{
+    width: 98%;
+    height: 4dvw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.details button
+{
+    height: 80%;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid rgb(135, 206, 235);
+    letter-spacing: .5px;
+    background-color: rgb(98, 215, 215);
+    font-size: large;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.subDetail .comp,.subDetail .price{
+    margin: 0px;
+    color: antiquewhite;
+}
+.comp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: calc(small-caps);
+}
+.scroll
+{
+    width: 100%;
+    height: 18rem;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background:transparent; /* make scrollbar transparent */
+}
+.scrollBox
+{
+    width:300vh;
+    height:20dvw;
+    display: flex;
+    gap: 2em;
+    justify-content: flex-start;
+}
+.searchBox
+{
+    width:17em;
+    padding: .6rem;
+    height: 1.7em;
+    border: 1.2px solid white;
+    border-radius: 50px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchBox input
+{
+    height: 100%;
+    border: none;
+    width:70%;
+    font-size: large;
+    outline: none;
+    border-radius:50px;
+    background-color: rgb(207, 207, 207);
+
+}
+.searchBox button
+{
+    height: 100%;
+    width: auto;
+    border: none;
+    border-radius: 50%;
+}
+
+
+
+
+

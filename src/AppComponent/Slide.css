@@ -1,0 +1,24 @@
+.Slide
+{
+    width: 100%;
+    height: 33rem;
+    background-color: yellow;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Slide .textBox{
+ position: absolute;
+ left: 10%;
+ top: 20%;
+}
+
+h1{
+    font-family: 'Berlin Sans FB Demi';
+}
+h5
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}

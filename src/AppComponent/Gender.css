@@ -1,0 +1,55 @@
+.Gender
+{
+    width: 98%;
+    padding: .5%;
+    height: 500px;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+}
+.Gender>:nth-child(2)
+{
+    background-color: transparent;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+.subGender
+{
+    background-color: rgb(207, 207, 207);
+    
+}
+.Gender,.subGender
+{
+    border-radius: 5px;
+}
+.showCard
+{
+    height: 14rem;
+    width: 10rem;
+}
+.showCard p{
+    margin: 2px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+.showCard img
+{
+    border-radius: 2px;
+    height: 85%;
+    width: 100%;
+
+}
+
+.baseGender
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
