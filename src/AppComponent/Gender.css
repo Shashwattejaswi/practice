@@ -18,9 +18,12 @@
 }
 .subGender
 {
-    background-color: rgb(207, 207, 207);
+    background-color: rgba(99, 247, 255, 0.264);
+    
+    
     
 }
+
 .Gender,.subGender
 {
     border-radius: 5px;
@@ -29,6 +32,11 @@
 {
     height: 14rem;
     width: 10rem;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.showCard:hover{
+    transform: translatey(-5px);
 }
 .showCard p{
     margin: 2px;

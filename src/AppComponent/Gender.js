@@ -1,13 +1,15 @@
 import "./Gender.css";
 import im from "./shopping.jpg";
+import {cardImgs} from "./image.js";
 const Gender=()=>
 {
     let imgs=[[im,im,im,im],[im,im,im,im]];
+    let img2=[cardImgs[0],cardImgs[1],cardImgs[3],cardImgs[4]];
     
     return(
         <div className="Gender">
             <div className="subGender baseGender">
-                {imgs[0].map((a)=>{return(
+                {img2.map((a)=>{return(
                    <div className="showCard">
                    <img src={a}></img>
                    <p>hehe</p>
