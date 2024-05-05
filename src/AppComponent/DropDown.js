@@ -1,11 +1,9 @@
 import "./DropDown.css";
 let ele=['shirt','kurta','pajama'];
-const DropDown=()=>
+const DropDown=(props)=>
 {
-
-
     return(
-        <ul className="dropBox">
+        <ul className="dropBox" onMouseEnter={()=>props.dropsChanger(true)} onMouseLeave={()=>props.dropsChanger(false)}>
            {
             ele.map((e)=><li>{e}</li>)
            }

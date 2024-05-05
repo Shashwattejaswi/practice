@@ -5,21 +5,28 @@ import DropDown from'./DropDown';
 const NavIcon =()=>
 {
     let iconContent=['Home','Mens','Women','Order','About'];
-    let showPopup=()=>
-    {
-        return <DropDown/>;
-    }
+    const [drop,drops]=useState(false);
+    const dropsChanger=(b)=>
+        {
+            drops(b);
+            return;
+        }
     return(
          <ul className="nav">
             {
                 iconContent.map((a)=>{
                     return(
                     <>
-                    <li onMouseEnter={showPopup}>{a}</li>
-                    {}
+                    <li onMouseOver={()=>drops(true)} onMouseLeave={()=>dropsChanger(false)}>{a}</li>
+                    
                     </>);
                 })
+                
             }
+            {
+                drop?<DropDown dropsChanger={dropsChanger}/>:null
+            }
+             
         </ul>
     );
 }
